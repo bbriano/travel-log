@@ -12,7 +12,5 @@
     "ecmaVersion": 11
   },
   "plugins": ["react"],
-  "rules": {
-    "no-console": "off"
-  }
+  "rules": {}
 }
