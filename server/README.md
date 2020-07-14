@@ -1,11 +1,5 @@
-# Log Entry
+# Travel log
 
-- title (Text)
-- description (Text)
-- comments (Text)
-- imageURL (Text)
-- rating (Number)
-- latitude (Number)
-- longitude (Number)
-- createdAt (DateTime)
-- updatedAt (DateTime)
+Track the cool places you've visited
+
+source: https://www.youtube.com/watch?v=5pQsl9u_10M&t=972s
