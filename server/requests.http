@@ -1,0 +1,35 @@
+GET http://localhost:1106 HTTP/1.1
+
+###
+
+GET http://localhost:1106/api/logs HTTP/1.1
+
+###
+
+POST http://localhost:1106/api/logs HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Empire State Building",
+    "comments": "Visited the top of the Empire State Building. The view was great!",
+    "latitude": 40.748817,
+    "longitude": -73.985428,
+    "rating": 7,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/250px-Empire_State_Building_%28aerial_view%29.jpg",
+    "visitDate": "2020-07-14T11:37:09.303Z" 
+}
+
+###
+
+POST http://localhost:1106/api/logs HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Cathedral of Barcelona",
+    "comments": "Shit's bigger than I thought. very cool",
+    "latitude": -37.8885187,
+    "longitude": 145.1044812,
+    "rating": 9,
+    "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/04/catedral-barcelona.jpg",
+    "visitDate": "2016-07-14T11:37:09.303Z" 
+}
