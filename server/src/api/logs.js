@@ -29,4 +29,13 @@ router.post('/', async (req, res, next) => {
   }
 });
 
+router.delete('/', async (req, res, next) => {
+  try {
+    const status = await LogEntry.deleteOne({ _id: req.body });
+    res.json(status);
+  } catch (error) {
+    next(error);
+  }
+});
+
 module.exports = router;

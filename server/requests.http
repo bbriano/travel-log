@@ -33,3 +33,13 @@ Content-Type: application/json
     "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/04/catedral-barcelona.jpg",
     "visitDate": "2016-07-14T11:37:09.303Z" 
 }
+
+###
+
+DELETE http://localhost:1106/api/logs HTTP/1.1
+Content-Type: application/json
+
+{
+    "_id": "5f0dc09565138a7cb7695b43"
+}
+
