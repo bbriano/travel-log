@@ -21,6 +21,16 @@ export default () => {
     })();
   }, []);
 
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setViewport({
+        ...viewport,
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    });
+  }, []);
+
   return (
     <ReactMapGL
       width={viewport.width}
