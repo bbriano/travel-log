@@ -8,7 +8,6 @@ module.exports = model(
         type: String,
         required: true,
       },
-      description: String,
       comments: String,
       imageURL: String,
       rating: {

@@ -27,8 +27,8 @@ Content-Type: application/json
 {
     "title": "Cathedral of Barcelona",
     "comments": "Shit's bigger than I thought. very cool",
-    "latitude": -37.8885187,
-    "longitude": 145.1044812,
+    "latitude": 41.383962,
+    "longitude": 2.1740104,
     "rating": 9,
     "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/04/catedral-barcelona.jpg",
     "visitDate": "2016-07-14T11:37:09.303Z" 

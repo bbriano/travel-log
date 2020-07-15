@@ -27,6 +27,6 @@ app.use('/api/logs', logs);
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
-const port = process.env.PORT || 1106;
+const port = process.env.PORT;
 // eslint-disable-next-line no-console
 app.listen(port, () => console.log(`Listening on port ${port}`));

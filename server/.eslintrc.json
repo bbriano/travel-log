@@ -12,5 +12,7 @@
     "ecmaVersion": 11
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "no-underscore-dangle": "off"
+  }
 }
