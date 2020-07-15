@@ -13,6 +13,11 @@ router.get('/', async (req, res, next) => {
 // eslint-disable-next-line no-unused-vars
 router.post('/', async (req, res, next) => {
   try {
+    if (req.get('X-API-KEY') !== process.env.API_KEY) {
+      res.status(401);
+      throw new Error('UnAuthorize');
+    }
+
     const logEntry = new LogEntry(req.body);
     const createdEntry = await logEntry.save();
     res.json(createdEntry);
